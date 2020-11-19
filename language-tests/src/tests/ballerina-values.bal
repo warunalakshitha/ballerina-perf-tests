@@ -25,19 +25,19 @@ function createRecord() {
 }
 
 // ------------------ Objects ---------------------------------
-type PersonObject object {
+class Person {
     string fname;
     string lname;
     int age;
 
-    function __init(string fname, string lname, int age) {
+    function init(string fname, string lname, int age) {
         self.fname = fname;
         self.lname = lname;
         self.age = age;
     }
-};
+}
 
-PersonObject po = new("John", "Doe", 25);
+Person po = new Person("John", "Doe", 25);
 
 function objectGet() {
     _ = po.age;
@@ -52,7 +52,7 @@ function objectSet() {
 }
 
 function createObject() {
-    PersonObject po = new("John", "Doe", 25);
+    Person po = new("John", "Doe", 25);
 }
 
 

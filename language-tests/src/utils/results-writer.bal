@@ -30,7 +30,7 @@ function writeResults() {
     // close the channel
     var result = csvChannel.close();
     if (result is error) {
-        io:println("Error occurred while closing the channel: ", error);
+        io:println("Error occurred while closing the channel: ", result);
     }
 }
 
