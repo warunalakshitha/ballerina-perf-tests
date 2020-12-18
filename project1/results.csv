@@ -1,0 +1,22 @@
+Test Case,Consumed Time
+Create Map,6874
+Map get,296
+Map set,3862
+ate Map,6733
+Create Array,1086
+Create Primitive Array,1859
+Record get,719
+Object get,844
+Map get,810
+Array get,226
+Primitive Array get,355
+Record set,3502
+Object set,3316
+Map set,4436
+Array set,3430
+Primitive Array set,1557
+No returns function,1625
+String returning function,1696
+Function Pointer Call,1877
+Primitive type test,540
+Primitive union type test,3653
